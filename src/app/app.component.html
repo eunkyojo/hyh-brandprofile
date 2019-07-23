@@ -1,0 +1,98 @@
+<div class="topnav">
+  <a href="#home">Home</a>
+  <a href="#browse">Browse</a>
+  <a href="#dashboard">myDashboard</a>
+</div>
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+  <a href="#browse">Back to Browse</a>
+  <p></p>
+  <div class="row">
+    <div class="column">
+      <div class="parent">
+        <div class="inline-block-child">
+          <img class="face" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="Avatar" style="width:200px">
+          &nbsp; &nbsp;
+          <div>
+            <h1>Brand {{ brandname }}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="container">
+        <p></p><br><p></p>
+        <i class="fas fa-info-circle"> Type of Brand</i> <br><p></p>
+        <i class="fas fa-map-marker-alt"> Headquarters Location</i> <br><p></p>
+        <i class="fas fa-dollar-sign"> Yearly Sales</i> <br><p></p>
+        <i class="fas fa-money-bill-alt"> Average Earning of Influencer</i> <br><p></p>
+      </div>
+      <button type="button" class="contactButton">Contact Info</button>
+      <p></p>
+    </div>
+    
+    <div class="column">
+      <h3>Rating from Influencers</h3>
+      <div class="container">
+        <i class="fas fa-star fa-2x"></i>
+        <i class="fas fa-star fa-2x"></i>
+        <i class="fas fa-star fa-2x"></i>
+        <i class="fas fa-star fa-2x"></i>
+        <i class="far fa-star fa-2x"></i>
+      </div>
+      <br>
+      <h3>Demographics Reached</h3>
+      <div class="row">
+        <div class="cardcol">
+          <div>
+            <div class="container">
+              <img src="https://image.flaticon.com/icons/png/512/18/18289.png" style="width:90px">
+              <h4><b>Age</b></h4>
+            </div>
+          </div>
+        </div>
+        <div class="cardcol">
+          <div>
+            <div class="container">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAh__ZLwHjQ8WggnY0FVLo4-3mug8yDZUQyaLntb-i06sVNUCF" style="width:90px">
+              <h4><b>Gender</b></h4>
+            </div>
+          </div>
+        </div>
+        <div class="cardcol">
+          <div>
+            <div class="container">
+              <img src="https://image.flaticon.com/icons/png/512/18/18289.png" style="width:90px">
+              <h4><b>Platforms</b></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <hr>
+
+  <div>
+    <h2>Similar Brands</h2>
+    <div class="container">
+      &nbsp;&nbsp;<i class="far fa-image fa-5x"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="far fa-image fa-5x"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="far fa-image fa-5x"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="far fa-image fa-5x"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="far fa-image fa-5x"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="far fa-image fa-5x"></i>
+    </div>
+  </div>
+  
+  </body>
+
+
+
+<router-outlet></router-outlet>
